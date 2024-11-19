@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+#main {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+    min-width: 90dvw;
+    max-width: 90dvw;
+    min-height: 90dvh;
+    max-height: 90dvh;
+    border: blue solid 1px;
+}
+
+#upper-form {
+    display: flex;
+    flex: 1 1 auto;
+    border: orange solid 1px;
+    flex-direction: column;
+}
+
+.txt {
+    padding-top: 5rem;
+    display: flex;
+    flex: 1 1 auto;
+
+}
+
+#right {
+    display: flex;
+    flex: 1 1 auto;
+    border: greenyellow solid 1px;
+    height: 100%;
+}
+
+#form-input{
+    display: flex;
+    flex: 2 1 auto;
+}
