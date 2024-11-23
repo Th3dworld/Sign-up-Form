@@ -1,6 +1,8 @@
 body {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100dvh;
 }
 
 
@@ -9,10 +11,8 @@ body {
     flex: 1 1 auto;
     align-items: center;
     justify-content: center;
-    min-width: 90dvw;
-    max-width: 90dvw;
-    min-height: 90dvh;
-    max-height: 90dvh;
+    height: 800px;
+    max-width: 1200px;
     border: blue solid 1px;
 }
 
