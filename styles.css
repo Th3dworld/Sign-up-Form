@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 90dvh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -53,7 +54,6 @@ body {
 }
 
 #cta {
-    border: 1px solid sandybrown;    
     padding-bottom: 0px;
     margin-top: 40px;
 }
@@ -66,13 +66,13 @@ body {
 
 .form-col{
     display: flex;
+    margin-bottom: 20px;
 }
 
-input[type=text]{
+input[class=text-box]{
     width: 250px;
     height: 30px;
     border-radius: 5px;
     border-color: rgb(219, 219, 219);
     border-style: solid;
-    color: aquamarine;
 }
