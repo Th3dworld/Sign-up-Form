@@ -3,6 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100dvh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -11,15 +12,15 @@ body {
     flex: 1 1 auto;
     align-items: center;
     justify-content: center;
-    height: 800px;
-    max-width: 1200px;
+    height: 900px;
+    max-width: 1300px;
     border: blue solid 1px;
+    
 }
 
 #upper-form {
     display: flex;
     flex: 1 1 auto;
-    border: orange solid 1px;
     flex-direction: column;
 }
 
@@ -27,14 +28,22 @@ body {
     padding-top: 5rem;
     display: flex;
     flex: 1 1 auto;
+    font-size: 1.3rem;
+    font-weight: 600;
 
 }
 
 #right {
     display: flex;
     flex: 1 1 auto;
-    border: greenyellow solid 1px;
+    border: rgb(255, 47, 47) solid 1px;
     height: 100%;
+ 
+}
+
+.form-right{
+    padding-left: 40px;
+    max-width: 650px;
 }
 
 #form-input{
