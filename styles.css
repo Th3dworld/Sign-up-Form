@@ -19,6 +19,7 @@ body {
     
 }
 
+
 #upper-form {
     display: flex;
     flex: 1 1 auto;
@@ -71,8 +72,29 @@ body {
 
 input[class=text-box]{
     width: 250px;
-    height: 30px;
+    height: 25px;
     border-radius: 5px;
     border-color: rgb(219, 219, 219);
     border-style: solid;
+    border-width: thin;
+
+}
+
+input[class=password]{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: rgb(255, 0, 0);
+    border-style: solid;
+    border-width: thin;
+}
+
+label{
+    font-weight: 0;
+}
+
+#frm-txt{
+    margin-top: 0px;
+    margin-bottom: 30px;
+
 }
