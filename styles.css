@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 90dvh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: black;
+    background-color: rgb(30, 28, 28);
 }
 
 
@@ -14,9 +14,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 900px;
-    max-width: 1300px;
-    border: blue solid 1px;
-    
+    max-width: 1300px;    
 }
 
 
@@ -63,6 +61,8 @@ body {
 #sect-2{
     background-color: white;
     padding-top: 40px;
+    position: relative;
+    box-shadow: #70707080 5px 3px 5px;    
 }
 
 #sect-3{
@@ -86,7 +86,6 @@ body {
 #right {
     display: flex;
     flex: 1 1 auto;
-    border: rgb(255, 47, 47) solid 1px;
     height: 100%;
  
 }
